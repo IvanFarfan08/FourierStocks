@@ -1,0 +1,6 @@
+.card-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /* Adjust the gap as needed */
+  /* Add any other styling as needed */
+}

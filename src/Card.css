@@ -1,0 +1,12 @@
+.card {
+  background-color: white;
+  border-radius: 2rem; /* Curvy edges */
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for depth */
+  text-align: center;
+  height: 44vh;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  justify-content: space-around; /* This helps distribute the content evenly */
+}
