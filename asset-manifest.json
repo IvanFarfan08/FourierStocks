@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fourierstocks/static/css/main.36f7f780.css",
+    "main.js": "/fourierstocks/static/js/main.50eb8394.js",
+    "static/js/787.90550b67.chunk.js": "/fourierstocks/static/js/787.90550b67.chunk.js",
+    "index.html": "/fourierstocks/index.html",
+    "main.36f7f780.css.map": "/fourierstocks/static/css/main.36f7f780.css.map",
+    "main.50eb8394.js.map": "/fourierstocks/static/js/main.50eb8394.js.map",
+    "787.90550b67.chunk.js.map": "/fourierstocks/static/js/787.90550b67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36f7f780.css",
+    "static/js/main.50eb8394.js"
+  ]
+}
