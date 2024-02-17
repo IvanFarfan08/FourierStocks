@@ -19,7 +19,9 @@ function App() {
   // Async function to fetch stock data
   const fetchStockData = async () => {
     try {
-      const response = await fetch(`/getStockData/${ticker}`);
+      const response = await fetch(
+        `${process.env.REACT_APP_API_BASE_URL}/getStockData/${ticker}`
+      );
       if (!response.ok) {
         console.error(`Error: Received status code ${response.status}`);
         setStockData(null);
@@ -35,7 +37,9 @@ function App() {
 
   const fetchStockName = async () => {
     try {
-      const response = await fetch(`/getStockName/${ticker}`);
+      const response = await fetch(
+        `${process.env.REACT_APP_API_BASE_URL}/getStockName/${ticker}`
+      );
       if (!response.ok) {
         console.error(`Error: Received status code ${response.status}`);
         setStockName("");
@@ -51,7 +55,9 @@ function App() {
 
   const fetchFrequencyDom = async () => {
     try {
-      const response = await fetch(`/getFrequencyDom/${ticker}`);
+      const response = await fetch(
+        `${process.env.REACT_APP_API_BASE_URL}/getFrequencyDom/${ticker}`
+      );
       if (!response.ok) {
         console.error(`Error: Received status code ${response.status}`);
         setFreqData(null);
@@ -67,7 +73,9 @@ function App() {
 
   const fetchDominantFreq = async () => {
     try {
-      const response = await fetch(`/getDominantFreq/${ticker}`);
+      const response = await fetch(
+        `${process.env.REACT_APP_API_BASE_URL}/getDominantFreq/${ticker}`
+      );
       if (!response.ok) {
         console.error(`Error: Received status code ${response.status}`);
         setDomFreqData(null);
@@ -83,7 +91,9 @@ function App() {
 
   const fetchPredictedData = async () => {
     try {
-      const response = await fetch(`/getPredictedData/${ticker}`);
+      const response = await fetch(
+        `${process.env.REACT_APP_API_BASE_URL}/getPredictedData/${ticker}`
+      );
       if (!response.ok) {
         console.error(`Error: Received status code ${response.status}`);
         setPredictedData(null);
