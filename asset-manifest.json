@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FourierStocks/static/css/main.36f7f780.css",
-    "main.js": "/FourierStocks/static/js/main.d7bfb43c.js",
+    "main.js": "/FourierStocks/static/js/main.5a728e4a.js",
     "static/js/787.90550b67.chunk.js": "/FourierStocks/static/js/787.90550b67.chunk.js",
     "index.html": "/FourierStocks/index.html",
     "main.36f7f780.css.map": "/FourierStocks/static/css/main.36f7f780.css.map",
-    "main.d7bfb43c.js.map": "/FourierStocks/static/js/main.d7bfb43c.js.map",
+    "main.5a728e4a.js.map": "/FourierStocks/static/js/main.5a728e4a.js.map",
     "787.90550b67.chunk.js.map": "/FourierStocks/static/js/787.90550b67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36f7f780.css",
-    "static/js/main.d7bfb43c.js"
+    "static/js/main.5a728e4a.js"
   ]
 }
